@@ -16,9 +16,54 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
 body {
+  padding-inline: 6.25rem;
   font-family: 'Nunito Sans', sans-serif;
 
   /* graphik */
   /* font-family: 'Graphik', sans-serif; */
+}
+
+header {
+  padding-block: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  padding-inline: 1.875rem;
+}
+
+header nav ul li a {
+  color: var(--white);
+}
+
+header nav ul li a:hover {
+  color: var(--iris);
+  transition: 1s ease;
+}
+
+.__contact_cta button {
+  border: .53rem solid var(--white);
+  outline: none;
+  border-radius: 5px;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  color: var(--white);
 }
