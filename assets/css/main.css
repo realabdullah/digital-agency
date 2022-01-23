@@ -1,4 +1,4 @@
-* {
+:root {
   --white: #FFFFFF;
   --iris: #5454D4;
   --platinum: #E7E7E7;
@@ -10,9 +10,15 @@
   
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
 
   /* graphik */
-  font-family: 'Graphik', sans-serif;
+  /* font-family: 'Graphik', sans-serif; */
 }
