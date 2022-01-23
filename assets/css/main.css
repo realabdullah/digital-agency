@@ -27,7 +27,6 @@ li {
 }
 
 body {
-  padding-inline: 6.25rem;
   font-family: 'Nunito Sans', sans-serif;
   background: #19191B;
 
@@ -37,6 +36,7 @@ body {
 
 header {
   padding-block: 2.5rem;
+  padding-inline: 6.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,6 +88,7 @@ header nav ul li a:hover {
 
 .__hero {
   padding-block: .7rem 8.125rem;
+  padding-inline: 6.25rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -134,12 +135,20 @@ header nav ul li a:hover {
   font-weight: 700;
 }
 
+.__hero {
+  padding-inline: 6.25rem;
+}
+
 .hero__image {
   width: 50%;
 }
 
 .hero__image img {
   width: 100%;
+}
+
+.__choice {
+  padding-inline: 6.25rem;
 }
 
 .choice__text {
@@ -182,6 +191,10 @@ header nav ul li a:hover {
 
 .choice__vid img {
   width: 100%;
+}
+
+.__services {
+  padding-inline: 6.25rem;
 }
 
 .services__header {
@@ -232,6 +245,7 @@ header nav ul li a:hover {
 
 .__portfolio {
   padding-block: 9.375rem;
+  padding-inline: 6.25rem;
 }
 
 .portfolio__header {
@@ -249,10 +263,11 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-inline: 6.25rem;
 }
 
 .portfolio__cards ul li {
-  margin-inline: 1.563rem;
+  margin-inline: 1rem;
   background: var(--eerieblack);
   padding: 1.563rem;
   border-radius: 7px;
@@ -264,4 +279,44 @@ header nav ul li a:hover {
 
 .portfolio__cards ul li:nth-child(3) {
   margin-top: 7.25rem;
+}
+
+.__contact {
+  padding-block: 7.25rem;
+  padding-inline: 6.25rem;
+  background: #1e1e207c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact__txt {
+  width: 70%;
+}
+
+.contact__txt h1 {
+  font-family: 'Graphik', sans-serif;
+  font-size: 3.75rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.contact__btn {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact__btn button {
+  border: none;
+  background-color: var(--iris);
+  border-radius: 7px;
+  padding-block: 1rem;
+  padding-inline: 1.3rem;
+}
+
+.contact__btn button a {
+  color: var(--white);
 }
