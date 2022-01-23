@@ -49,6 +49,7 @@ header nav ul {
 
 header nav ul li {
   padding-inline: 1.875rem;
+  text-align: center;
 }
 
 header nav ul li a {
@@ -341,6 +342,7 @@ header nav ul li a:hover {
 
 .footer__nav nav ul li {
   padding-inline: 1.25rem;
+  text-align: center;
 }
 
 .footer__nav nav ul li a {
