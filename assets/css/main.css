@@ -513,9 +513,9 @@ header nav ul li a:hover {
     font-size: 2.25rem;
   }
 
-  .portfolio__cards {
+  /* .portfolio__cards {
     overflow: hidden;
-  }
+  } */
 
   .arrow__nav {
     display: flex;
@@ -545,10 +545,6 @@ header nav ul li a:hover {
   .portfolio__cards ul {
     padding-block: 6rem;
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     padding-inline: 1.563rem;
     background: url('/assets/slantdc.svg') no-repeat top right, url('/assets/zigzag.svg') no-repeat bottom left;
   }
