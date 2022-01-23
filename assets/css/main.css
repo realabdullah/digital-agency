@@ -229,3 +229,39 @@ header nav ul li a:hover {
   letter-spacing: -0.031rem;
   color: #ffffffb7;
 }
+
+.__portfolio {
+  padding-block: 9.375rem;
+}
+
+.portfolio__header {
+  padding-block: 0 4.375rem;
+}
+
+.portfolio__header h1 {
+  text-align: left;
+  font-size: 3.625rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.portfolio__cards ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio__cards ul li {
+  margin-inline: 1.563rem;
+  background: var(--eerieblack);
+  padding: 1.563rem;
+  border-radius: 7px;
+}
+
+.portfolio__cards ul li:nth-child(2) {
+  margin-top: 3.625rem;
+}
+
+.portfolio__cards ul li:nth-child(3) {
+  margin-top: 7.25rem;
+}
