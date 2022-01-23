@@ -266,6 +266,7 @@ header nav ul li a:hover {
 
 .portfolio__cards ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-inline: 6.25rem;
@@ -550,10 +551,10 @@ header nav ul li a:hover {
   .portfolio__cards ul {
     padding-block: 6rem;
     display: flex;
-    overflow-x: auto;
+    /* overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch; */
     padding-inline: 1.563rem;
     background: url('/assets/slantdc.svg') no-repeat top right, url('/assets/zigzag.svg') no-repeat bottom left;
   }
