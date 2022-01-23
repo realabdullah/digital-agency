@@ -121,3 +121,38 @@ header nav ul li a:hover {
   width: 100%;
 }
 
+.choice__text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3.125rem;
+}
+
+.choice__text .h1 {
+  width: 50%;
+}
+
+.choice__text .h1 h1 {
+  font-family: 'Graphik', sans-serif;
+  font-size: 4.125rem;
+  font-weight: bold;
+}
+
+.choice__text .p {
+  width: 50%;
+}
+
+.choice__text .p p {
+  font-size: 1.313rem;
+  line-height: 2.438rem;
+}
+
+.choice__vid {
+  width: 100%;
+  padding-block: 0 8.125rem;
+}
+
+.choice__vid img {
+  width: 100%;
+}
