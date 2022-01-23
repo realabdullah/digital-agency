@@ -1,0 +1,18 @@
+* {
+  --white: #FFFFFF;
+  --iris: #5454D4;
+  --platinum: #E7E7E7;
+  --cinnabar: #F04037;
+  --mustard: #FEDC5A;
+  --eerieblack: #1E1E20;
+  --chineseblack: #121213;
+  --charlestongreen: #292D32;
+  
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+
+  /* graphik */
+  font-family: 'Graphik', sans-serif;
+}
