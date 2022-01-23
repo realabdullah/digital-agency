@@ -320,3 +320,37 @@ header nav ul li a:hover {
 .contact__btn button a {
   color: var(--white);
 }
+
+.__footer {
+  padding-block: 6.25rem;
+  padding-inline: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__nav nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav nav ul li {
+  padding-inline: 1.25rem;
+}
+
+.footer__nav nav ul li a {
+  color: #ffffffb7;
+  font-size: 1.125rem;
+}
+
+.footer__nav nav ul li a:hover {
+  color: var(--iris);
+  transition: 1s ease;
+}
+
+.footer__rights p {
+  color: #ffffffb7;
+  font-size: 1rem;
+  line-height: 2.375rem;
+  letter-spacing: 0.031rem;
+}
