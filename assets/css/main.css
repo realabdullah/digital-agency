@@ -424,6 +424,7 @@ header nav ul li a:hover {
   .hero__image {
     width: unset;
     margin-top: 50px;
+    background: url('/assets/zigzag.svg') no-repeat top left, url('/assets/doubleplay.svg') no-repeat bottom -20px left, url('/assets/circleoverlay.svg') no-repeat top right 20px, url('/assets/plus.svg') no-repeat bottom right 20px;
   }
 
   .__choice {
@@ -459,8 +460,17 @@ header nav ul li a:hover {
     line-height: 1.538rem;
   }
 
+  .choice__vid {
+    padding-block: 0 4.125rem;
+  }
+
   .__services {
     padding-inline: 1.563rem;
+  }
+
+  .services__header {
+    padding-block: 8.125rem;
+    background: url('/assets/doubleplay.svg') no-repeat top -10px left, url('/assets/slantadd.svg') no-repeat bottom -20px right;
   }
 
   .services__header h1 {
@@ -500,10 +510,11 @@ header nav ul li a:hover {
   }
 
   .portfolio__cards ul {
+    padding-block: 6rem;
     display: flex;
     flex-direction: column;
     padding-inline: 1.563rem;
-    background: unset;
+    background: url('/assets/slantdc.svg') no-repeat top right, url('/assets/zigzag.svg') no-repeat bottom left;
   }
 
   .portfolio__cards ul li {
@@ -522,7 +533,7 @@ header nav ul li a:hover {
     align-items: flex-start;
     justify-content: unset;
     width: unset;
-    background: unset;
+    background: url('/assets/doubleplay.svg') no-repeat top right 30px, url('/assets/slantdc.svg') no-repeat bottom left 60px;
   }
 
   .contact__txt {
