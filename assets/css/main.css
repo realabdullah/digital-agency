@@ -107,7 +107,6 @@ header nav ul li a:hover {
 } 
 
 .hero__text h1 {
-  font-family: 'Graphik', sans-serif;
   font-size: 5rem;
   font-weight: bold;
   text-transform: capitalize;
@@ -171,7 +170,6 @@ header nav ul li a:hover {
 }
 
 .choice__text .h1 h1 {
-  font-family: 'Graphik', sans-serif;
   font-size: 4.125rem;
   font-weight: bold;
   color: var(--white);
@@ -209,7 +207,6 @@ header nav ul li a:hover {
 }
 
 .services__header h1 {
-  font-family: 'Graphik', sans-serif;
   font-size: 4.125rem;
   font-weight: bold;
   text-transform: capitalize;
@@ -306,7 +303,6 @@ header nav ul li a:hover {
 }
 
 .contact__txt h1 {
-  font-family: 'Graphik', sans-serif;
   font-size: 3.75rem;
   font-weight: bold;
   color: var(--white);
