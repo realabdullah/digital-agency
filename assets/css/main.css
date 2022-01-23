@@ -360,6 +360,7 @@ header nav ul li a:hover {
   font-size: 1rem;
   line-height: 2.375rem;
   letter-spacing: 0.031rem;
+  text-align: center;
 }
 
 @media(max-width: 850px) {
@@ -560,5 +561,19 @@ header nav ul li a:hover {
 
   .footer__rights p {
     margin-top: 40px;
+  }
+}
+
+@media(max-width: 350px) {
+  .services__service ul li p {
+    padding-inline: 1.5rem;
+  }
+
+  .portfolio__cards ul li {
+    width: 250px;
+  }
+
+  .portfolio__cards ul li img {
+    width: 100%;
   }
 }
