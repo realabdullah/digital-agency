@@ -67,3 +67,57 @@ header nav ul li a:hover {
   padding-inline: 1.2rem;
   color: var(--white);
 }
+
+.__hero {
+  padding-block: .7rem 8.125rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__text {
+  width: 50%;
+  padding-right: 3rem;
+} 
+
+.hero__text h1 {
+  font-family: 'Graphik', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--white);
+  padding-block: 0 1.5rem;
+}
+
+.hero__text p {
+  font-size: 1.313rem;
+  font-weight: 400;
+  color: var(--white);
+  padding-block: 0 3.125rem;
+}
+
+.cta__service {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 7px;
+  padding-block: 1rem;
+  padding-inline: 1.3rem;
+}
+
+.cta__service a {
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.hero__image {
+  width: 50%;
+}
+
+.hero__image img {
+  width: 100%;
+}
+
