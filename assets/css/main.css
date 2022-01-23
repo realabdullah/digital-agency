@@ -42,6 +42,10 @@ header {
   justify-content: space-between;
 }
 
+.mnav {
+  display: none;
+}
+
 header nav ul {
   display: flex;
   align-items: center;
@@ -360,4 +364,205 @@ header nav ul li a:hover {
   font-size: 1rem;
   line-height: 2.375rem;
   letter-spacing: 0.031rem;
+}
+
+@media(max-width: 850px) {
+  header {
+    padding-block: 2.5rem;
+    padding-inline: 1.563rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .__logo {
+    width: 6.875rem;
+  }
+
+  .__logo img {
+    width: 100%;
+  }
+
+  .mnav {
+    display: block;
+  }
+
+  .mnav svg:hover {
+    cursor: pointer;
+  }
+
+  header nav,
+  .__contact_cta {
+    display: none;
+  }
+
+  .__hero {
+    margin-block: 2.125rem;
+    padding-inline: 1.563rem;
+    width: unset;
+    flex-direction: column;
+    background: none;
+  }
+
+  .hero__text {
+    width: unset;
+    padding-right: 0;
+  } 
+
+  .hero__text h1 {
+    font-size: 2.625rem;
+    line-height: 5.25rem;
+  }
+
+  .hero__text p {
+    font-size: 1rem;
+    letter-spacing: unset;
+    line-height: 2rem;
+  }
+
+  .cta__service a {
+    font-size: 1rem;
+  }
+
+  .hero__image {
+    width: unset;
+    margin-top: 50px;
+  }
+
+  .__choice {
+    padding-inline: 1.563rem;
+  }
+
+  .choice__text {
+    width: unset;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    padding-bottom: 3.125rem;
+  }
+
+  .choice__text .h1 {
+    width: unset;
+    padding-right: unset;
+    padding-bottom: 30px;
+  }
+
+  .choice__text .h1 h1 {
+    font-size: 2.25rem;
+    line-height: 3.3rem;
+  }
+
+  .choice__text .p {
+    width: unset;
+    padding-left: unset;
+  }
+  
+  .choice__text .p p {
+    font-size: 1rem;
+    line-height: 1.538rem;
+  }
+
+  .__services {
+    padding-inline: 1.563rem;
+  }
+
+  .services__header h1 {
+    font-size: 2.25rem;
+    text-align: left;
+    line-height: 2.7rem;
+  }
+
+  .services__service ul {
+    margin-bottom: 50px;
+    flex-direction: column;
+    flex-wrap: unset;
+    background: url('/assets/slantadd.svg') no-repeat bottom left;
+  }
+
+  .services__service ul li {
+    width: 20rem;
+    margin: 1.563rem;
+  }
+
+  .services__service ul li h3 {
+    font-size: 1.5rem;
+  }
+
+  .services__service ul li p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+  }
+
+  .__portfolio {
+    padding-inline: 1.563rem;
+  }
+
+  .portfolio__header h1 {
+    font-size: 2.25rem;
+  }
+
+  .portfolio__cards ul {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1.563rem;
+    background: unset;
+  }
+
+  .portfolio__cards ul li {
+    margin-inline: unset;
+    margin-block: 1rem;
+  }
+
+  .portfolio__cards ul li:nth-child(2),
+  .portfolio__cards ul li:nth-child(3) {
+    margin-top: unset;
+  }
+
+  .__contact {
+    padding-inline: 1.563rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: unset;
+    width: unset;
+    background: unset;
+  }
+
+  .contact__txt {
+    width: unset;
+  }
+  
+  .contact__txt h1 {
+    font-size: 2.25rem;
+  }
+
+  .contact__btn {
+    margin-top: 50px;
+    width: unset;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .__footer {
+    padding-block: 6.25rem 4rem;
+    padding-inline: 1.563rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__nav nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__nav nav ul li {
+    padding-inline: unset;
+    padding-block: 1.25rem;
+  }
+
+  .footer__rights p {
+    margin-top: 40px;
+  }
 }
