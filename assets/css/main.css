@@ -40,8 +40,7 @@ body {
 }
 
 header {
-  padding-block: 2.5rem;
-  padding-inline: 6.25rem;
+  padding: 2.5rem 6.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,7 +56,7 @@ header nav ul {
 }
 
 header nav ul li {
-  padding-inline: 1.875rem;
+  padding: 0 1.875rem;
   text-align: center;
 }
 
@@ -76,8 +75,7 @@ header nav ul li a:hover {
   outline: none;
   background: transparent;
   border-radius: 5px;
-  padding-block: .6rem;
-  padding-inline: 1.2rem;
+  padding: .6rem 1.2rem;
   color: var(--white);
 }
 
@@ -97,8 +95,8 @@ header nav ul li a:hover {
 }
 
 .__hero {
-  margin-block: 8.125rem;
-  padding-inline: 6.25rem;
+  margin: 8.125rem 0;
+  padding: 0 6.25rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -126,7 +124,7 @@ header nav ul li a:hover {
   color: #ffffffb7;
   line-height: 2.438rem;
   letter-spacing: 0.041rem;
-  padding-block: 0 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 .cta__service {
@@ -135,8 +133,7 @@ header nav ul li a:hover {
   align-items: center;
   background-color: var(--iris);
   border-radius: 7px;
-  padding-block: 1rem;
-  padding-inline: 1.3rem;
+  padding: 1rem 1.3rem;
 }
 
 .cta__service a {
@@ -146,7 +143,7 @@ header nav ul li a:hover {
 }
 
 .__hero {
-  padding-inline: 6.25rem;
+  padding: 0 6.25rem;
 }
 
 .hero__image {
@@ -158,7 +155,7 @@ header nav ul li a:hover {
 }
 
 .__choice {
-  padding-inline: 6.25rem;
+  padding: 0 6.25rem;
 }
 
 .choice__text {
@@ -195,7 +192,7 @@ header nav ul li a:hover {
 
 .choice__vid {
   width: 100%;
-  padding-block: 0 8.125rem;
+  padding-bottom: 8.125rem;
 }
 
 .choice__vid img {
@@ -203,11 +200,11 @@ header nav ul li a:hover {
 }
 
 .__services {
-  padding-inline: 6.25rem;
+  padding: 0 6.25rem;
 }
 
 .services__header {
-  padding-block: 0 3.125rem;
+  padding-bottom: 3.125rem;
   background: url('/assets/doubleplay.svg') no-repeat left, url('/assets/slantadd.svg') no-repeat bottom right;
 }
 
@@ -242,7 +239,7 @@ header nav ul li a:hover {
   font-weight: 600;
   color: var(--white);
   text-align: center;
-  padding-block: 1.25rem;
+  padding: 1.25rem 0;
 }
 
 .services__service ul li p {
@@ -254,12 +251,11 @@ header nav ul li a:hover {
 }
 
 .__portfolio {
-  padding-block: 9.375rem;
-  padding-inline: 6.25rem;
+  padding: 9.375rem 6.25rem;
 }
 
 .portfolio__header {
-  padding-block: 0 4.375rem;
+  padding-bottom: 0 4.375rem;
 }
 
 .portfolio__header h1 {
@@ -274,12 +270,12 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-inline: 6.25rem;
+  padding: 0 6.25rem;
   background: url('/assets/slantdc.svg') no-repeat top right, url('/assets/zigzag.svg') no-repeat bottom left;
 }
 
 .portfolio__cards ul li {
-  margin-inline: 1rem;
+  margin: 0 1rem;
   background: var(--eerieblack);
   padding: 1.563rem;
   border-radius: 7px;
@@ -294,8 +290,7 @@ header nav ul li a:hover {
 }
 
 .__contact {
-  padding-block: 7.25rem;
-  padding-inline: 6.25rem;
+  padding: 7.25rem 6.25rem;
   background: #1e1e207c;
   display: flex;
   align-items: center;
@@ -325,8 +320,7 @@ header nav ul li a:hover {
   border: none;
   background-color: var(--iris);
   border-radius: 7px;
-  padding-block: 1rem;
-  padding-inline: 1.3rem;
+  padding: 1rem 1.3rem;
 }
 
 .contact__btn button a {
@@ -334,8 +328,7 @@ header nav ul li a:hover {
 }
 
 .__footer {
-  padding-block: 6.25rem;
-  padding-inline: 6.25rem;
+  padding: 6.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -347,7 +340,7 @@ header nav ul li a:hover {
 }
 
 .footer__nav nav ul li {
-  padding-inline: 1.25rem;
+  padding: 0 1.25rem;
   text-align: center;
 }
 
@@ -375,8 +368,7 @@ header nav ul li a:hover {
 
 @media(max-width: 850px) {
   header {
-    padding-block: 2.5rem;
-    padding-inline: 1.563rem;
+    padding: 2.5rem 1.563rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -404,8 +396,8 @@ header nav ul li a:hover {
   }
 
   .__hero {
-    margin-block: 2.125rem;
-    padding-inline: 1.563rem;
+    margin: 2.125rem 0;
+    padding: 0 1.563rem;
     width: unset;
     flex-direction: column;
     background: none;
@@ -438,7 +430,7 @@ header nav ul li a:hover {
   }
 
   .__choice {
-    padding-inline: 1.563rem;
+    padding: 0 1.563rem;
   }
 
   .choice__text {
@@ -471,15 +463,15 @@ header nav ul li a:hover {
   }
 
   .choice__vid {
-    padding-block: 0 4.125rem;
+    padding-bottom: 4.125rem;
   }
 
   .__services {
-    padding-inline: 1.563rem;
+    padding: 0 1.563rem;
   }
 
   .services__header {
-    padding-block: 8.125rem;
+    padding: 8.125rem 0;
     background: url('/assets/doubleplay.svg') no-repeat top -10px left, url('/assets/slantadd.svg') no-repeat bottom -20px right;
   }
 
@@ -512,7 +504,7 @@ header nav ul li a:hover {
   }
 
   .__portfolio {
-    padding-inline: 1.563rem;
+    padding: 9.375rem 1.563rem;
   }
 
   .portfolio__header h1 {
@@ -554,13 +546,12 @@ header nav ul li a:hover {
 
 
   .portfolio__cards ul {
-    padding-block: 6rem;
+    padding: 6rem 1.563rem;
     display: flex;
     /* overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch; */
-    padding-inline: 1.563rem;
     background: url('/assets/slantdc.svg') no-repeat top right, url('/assets/zigzag.svg') no-repeat bottom left;
   }
 
@@ -570,8 +561,7 @@ header nav ul li a:hover {
 
   .portfolio__cards ul li {
     scroll-snap-align: start;
-    margin-inline: unset;
-    margin-block: 1rem;
+    margin: 1rem unset;
   }
 
   .portfolio__cards ul li:nth-child(2),
@@ -580,7 +570,7 @@ header nav ul li a:hover {
   }
 
   .__contact {
-    padding-inline: 1.563rem;
+    padding: 0 1.563rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: unset;
@@ -605,8 +595,7 @@ header nav ul li a:hover {
   }
 
   .__footer {
-    padding-block: 6.25rem 4rem;
-    padding-inline: 1.563rem;
+    padding: 6.25rem 1.563rem 4rem 1.563rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -619,7 +608,7 @@ header nav ul li a:hover {
 
   .footer__nav nav ul li {
     padding-inline: unset;
-    padding-block: 1.25rem;
+    padding: 1.25rem 0;
   }
 
   .footer__rights p {
@@ -629,7 +618,7 @@ header nav ul li a:hover {
 
 @media(max-width: 350px) {
   .services__service ul li p {
-    padding-inline: 1.5rem;
+    padding: 0 1.5rem;
   }
 
   .portfolio__cards ul li {
